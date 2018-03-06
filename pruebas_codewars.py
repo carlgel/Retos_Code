@@ -1,3 +1,7 @@
+"""
+Este programa te dice cuentas letras ya sean mayusculas o minusculas, 
+numeros tienes repetidas en un string que entra como parametro.
+"""
 def duplicate_count(cadena):
     # Your code goes here
 	cadena = cadena.lower()
