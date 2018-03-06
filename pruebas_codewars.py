@@ -1,6 +1,6 @@
 """
-Este programa te dice cuentas letras ya sean mayusculas o minusculas, 
-numeros tienes repetidas en un string que entra como parametro.
+Este programa te dice cuentas, cuales y cuantas veces se repite una letra ya sea mayuscula o minuscula, 
+numeros en un string que entra como parametro.
 """
 def duplicate_count(cadena):
     # Your code goes here
@@ -22,7 +22,7 @@ def duplicate_count(cadena):
 			i = 0
 		else:
 			i += 1
-	return len(caracteres)
+	return (len(caracteres), caracteres)
 # bloque principal
 
 print(duplicate_count('ABBA'))
